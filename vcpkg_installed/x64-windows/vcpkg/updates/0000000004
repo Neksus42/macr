@@ -1,0 +1,10 @@
+Package: libwebp
+Version: 1.4.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 4cdaa4a9f07885541f2a9b0efff3bd80ffa9ad3f3e49ce84459a8c2006716f5c
+Description: WebP codec: library to encode and decode images in WebP format
+Default-Features: libwebpmux, nearlossless, simd
+Status: install ok half-installed
